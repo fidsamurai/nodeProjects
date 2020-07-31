@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title Welcome
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .navbar.navbar-default(role='navigation')
+      nav.navbar.navbar-expand-md.navbar-dark.bg-dark.mb-4
+        a.navbar-brand(href='#') nodeAuth
+        #navbarCollapse.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
+            if user
+              li.nav-item(class=(title == 'Members' ? 'active' : ''))
+                a(href='/') Members
+            if !user
+              li.nav-item(class=(title == 'Register' ? 'active' : ''))
+                a(href='/users/register') Register
+              li.nav-item(class=(title == 'Login' ? 'active' : ''))
+                a(href='/users/login') Login
+            ul.nav.navbar-nav.navbar-right
+              if user
+                li
+                  a(href='/users/logout') Logout
+    .container
+      != messages()
+      block content
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='/javascripts/bootstrap.js')

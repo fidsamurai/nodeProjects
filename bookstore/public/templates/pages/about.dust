@@ -1,0 +1,32 @@
+{>"layouts/master" /}
+{<title}
+  About Bookstore
+{/title}
+
+{<body}
+  <div class="row">
+   <div class="large-12 columns">
+     <h2>About Us</h2>
+     <p>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum at neque ut consequat.
+       Nulla congue in magna eu dignissim. Praesent neque tellus, vulputate eget auctor ultrices, faucibus sed nisl.
+       Ut sed pharetra justo. Mauris non nunc non massa euismod bibendum vel eget neque.
+       Donec nibh libero, fermentum id ultricies et, vehicula eget purus.
+       Suspendisse sodales consequat convallis. Integer rutrum odio eget pharetra auctor.
+       Suspendisse rutrum orci tortor, sed semper mauris mollis dapibus.
+       Aenean non lectus varius, convallis nunc eget, gravida tellus.
+       Etiam posuere turpis id ligula ullamcorper, sit amet faucibus massa laoreet.
+       Sed ultrices ultrices ligula. Ut interdum id arcu at iaculis. Ut lobortis eu justo id pulvinar.
+       Quisque tincidunt, arcu quis bibendum luctus, nisi lectus euismod nisi, eget finibus odio sem sed elit.
+     </p>
+     <p>
+       Maecenas mauris odio, dignissim non diam sed, pharetra imperdiet ligula.
+       Nam diam nunc, consequat id purus sit amet, feugiat bibendum metus.
+       Vestibulum non nulla tincidunt, mollis nunc eget, venenatis quam.
+       Aliquam lacinia tristique ipsum, et suscipit tortor. Aliquam erat volutpat.
+       Cras ac iaculis odio, id iaculis mauris. Quisque a gravida ante.
+       Nunc dapibus, sem a mollis semper, ipsum ipsum porttitor arcu, vel consectetur lacus nisl imperdiet nisl.
+     </p>
+   </div>
+  </div>
+  {/body}

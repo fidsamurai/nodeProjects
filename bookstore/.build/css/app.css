@@ -1,0 +1,49 @@
+/* line 1, css/app */
+body {
+  padding: 20px !important;
+  margin: 10px !important;
+}
+/* line 6, css/app */
+.book-container {
+  display: inline-flex;
+}
+/* line 10, css/app */
+ul,
+li {
+  list-style: none;
+}
+/* line 14, css/app */
+.top-bar {
+  margin-bottom: 20px;
+}
+/* line 18, css/app */
+.book {
+  text-align: center;
+}
+/* line 22, css/app */
+.book h4 {
+  margin-top: 15px;
+}
+/* line 26, css/app */
+.price {
+  margin: 5px;
+  font-size: 18px;
+}
+/* line 31, css/app */
+.price span {
+  color: green;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px #ccc solid;
+  border-radius: 50%;
+}
+/* line 39, css/app */
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+}
+/* line 45, css/app */
+h2 span {
+  font-size: 18px;
+}

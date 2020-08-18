@@ -1,0 +1,32 @@
+{
+  "name": "nodeprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidsamurai/nodeProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fidsamurai/nodeProjects/issues"
+  },
+  "homepage": "https://github.com/fidsamurai/nodeProjects#readme",
+  "dependencies": {
+    "bower": "^1.8.8",
+    "connect-flash": "^0.1.1",
+    "express-messages": "^1.0.1",
+    "generator-kraken": "^2.2.3",
+    "grunt-cli": "^1.3.2",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.28"
+  }
+}

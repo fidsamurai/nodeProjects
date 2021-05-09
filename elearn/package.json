@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "@handlebars/allow-prototype-access": "^1.0.3",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.7"
   }
 }

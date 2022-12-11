@@ -9,7 +9,7 @@
     "connect-flash": "*",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "~4.18.2",
     "express-messages": "*",
     "express-session": "*",
     "express-validator": "5.3.1",

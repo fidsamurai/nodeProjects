@@ -18,7 +18,7 @@
         "dust-makara-helpers": "^4.2.0",
         "dustjs-helpers": "^1.7.4",
         "eslint": "^1.10.3",
-        "express": "^4.12.2",
+        "express": "^4.17.3",
         "express-messages": "^1.0.1",
         "kraken-js": "^2.0.0",
         "makara": "^2.1.0",
